@@ -62,6 +62,22 @@ main {
   padding: 2em 1em;
   margin-bottom: 1.5em;
 }
+
+main img {
+  vertical-align: middle;
+  padding: 0.2rem;
+}
+
+main .imgOut-container {
+  border: 5px solid purple;
+  display: inline-block;
+}
+
+main .imgIn-container {
+  border: 5px solid lightblue;
+  display: inline-block;
+}
+
 section {
   background-color: #e3e3e3;
   padding: 1em;
