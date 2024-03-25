@@ -288,3 +288,9 @@ footer a {
     font-size: 2.85rem;
   }
 }
+
+@media print {
+  body {
+    background-image: none;
+  }
+}
