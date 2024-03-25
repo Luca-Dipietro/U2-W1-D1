@@ -258,15 +258,16 @@ footer a {
   }
 
   header {
-    padding: 0.5em;
-    display: inline-block;
-    width: 100%;
-    text-align: unset;
+    padding: 1em;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
   }
 
   header div {
     display: inline-block;
-    vertical-align: middle;
+    width: 75%;
   }
 
   header div img {
@@ -277,14 +278,12 @@ footer a {
 
   header p {
     display: inline-block;
-    vertical-align: middle;
     margin: unset;
     text-align: unset;
   }
 
   header nav {
     display: inline-block;
-    vertical-align: middle;
   }
 
   article table {
@@ -295,7 +294,7 @@ footer a {
     display: inline-block;
     width: 50%;
     margin: 0;
-    margin-right: -4px;
+    margin-right: -6px;
     vertical-align: middle;
     height: 210px;
   }
@@ -304,18 +303,16 @@ footer a {
     display: inline-block;
     width: 50%;
     margin: 0;
-    margin-left: -4px;
     vertical-align: middle;
     border-radius: 20px;
   }
 
   aside div {
     display: inline-block;
-    width: 33%;
     font-size: 1.7rem;
     margin-top: 1.2em;
-    margin: 0;
-    margin-inline: -4px;
+    width: 33.333%;
+    margin-inline: -3px;
   }
 
   aside p {
