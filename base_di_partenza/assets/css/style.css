@@ -303,4 +303,20 @@ footer a {
   body {
     background-image: none;
   }
+
+  header {
+    display: none;
+  }
+
+  iframe {
+    display: none;
+  }
+
+  section {
+    display: none;
+  }
+
+  aside {
+    display: none;
+  }
 }
