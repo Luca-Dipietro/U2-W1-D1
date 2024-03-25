@@ -271,11 +271,19 @@ footer a {
   iframe {
     display: inline-block;
     width: 50%;
+    margin: 0;
+    margin-right: -4px;
+    vertical-align: middle;
+    height: 210px;
   }
 
   section {
     display: inline-block;
-    width: 45%;
+    width: 50%;
+    margin: 0;
+    margin-left: -4px;
+    vertical-align: middle;
+    border-radius: 20px;
   }
 
   aside div {
@@ -283,7 +291,8 @@ footer a {
     width: 33%;
     font-size: 1.7rem;
     margin-top: 1.2em;
-    margin-inline: -3px;
+    margin: 0;
+    margin-inline: -4px;
   }
 
   aside p {
@@ -292,6 +301,7 @@ footer a {
 
   aside h2 {
     font-size: 3rem;
+    margin-top: 1.5em;
   }
 
   footer {
